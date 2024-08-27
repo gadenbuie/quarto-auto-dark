@@ -103,10 +103,9 @@ At its core, auto dark mode is built on two key ideas:
     }
     ```
 
-    You can read more about the approach in [Aral’s blog
-    post](https://ar.al/2021/08/24/implementing-dark-mode-in-a-handful-of-lines-of-css-with-css-filters/).
     This is definitely a big hammer approach to dark mode, but in most
-    cases it works well.
+    cases it works well and you can read more about it in [Aral’s blog
+    post](https://ar.al/2021/08/24/implementing-dark-mode-in-a-handful-of-lines-of-css-with-css-filters/).
 
     If you want a particular element to retain its original colors,
     apply the same filter rule to repeat the inversion. Auto dark mode
